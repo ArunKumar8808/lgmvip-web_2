@@ -1,0 +1,89 @@
+button{
+  color: rgb(234, 234, 234);
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(12, 26, 224);
+  padding: 12px 10px;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(59, 143, 211);
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.box2{
+  margin-left: 100px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  color: aliceblue;
+}
+
+.image{
+  width: 80px;
+  height: 40px;
+}
+
+.profile {
+  border: 2px solid rgb(229, 74, 229);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(57, 102, 123);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+}
+.loader{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
